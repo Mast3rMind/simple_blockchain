@@ -1,0 +1,9 @@
+[package]
+name = "simple_blockchain"
+version = "0.1.0"
+authors = ["Davide Giovannini <giovannini.davide90@gmail.com>"]
+
+[dependencies]
+chrono = "0.3"
+# chrono = { version = "0.3", features = ["serde", "rustc-serialize"] }
+rust-crypto = "^0.2"
